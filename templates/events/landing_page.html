@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <h1>Welcome to the Neighborhood Events Hub</h1>
+    <a href="{% url 'event_listings' %}" class="btn btn-primary mt-3">View Events</a>
+    <a href="{% url 'add_event' %}" class="btn btn-secondary mt-3">Add New Event</a>
+</div>
+{% endblock %}
